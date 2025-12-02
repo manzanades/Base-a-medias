@@ -139,7 +139,7 @@
                                 <div class="action-links">
                                     <a href="{% url 'editar_tributario' c.id_contribuyente %}" class="edit">Editar</a>
                                     <a href="{% url 'eliminar_tributario' c.id_contribuyente %}" class="delete delete-btn">Eliminar</a>
-                                    <a href="{% url 'clasificaciones_por_contribuyente' c.id_contribuyente %}" class="manage">Clasificaciones</a>
+                                    <a href="{% url 'clasificaciones_por_contribuyente' c.id_contribuyente %}" style="background:#2b7; color:#fff; padding:8px 12px; border-radius:6px; text-decoration:none;">Clasificaciones</a>
                                 </div>
                             </td>
                         </tr>
@@ -160,4 +160,5 @@
 
     <script src="{% static 'tributarios.js' %}"></script>
 </body>
+
 </html>
